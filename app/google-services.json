@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1037160679130",
+    "project_id": "walkingwithw",
+    "storage_bucket": "walkingwithw.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037160679130:android:65c10fa58bb35832fc47e3",
+        "android_client_info": {
+          "package_name": "com.example.capstoneproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1037160679130-b6c02njmc6q7vvnatgbuikvu6eh4cfuv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtDP2OKMgHw6LrWP2junkNQX8o5UKuuZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1037160679130-b6c02njmc6q7vvnatgbuikvu6eh4cfuv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
