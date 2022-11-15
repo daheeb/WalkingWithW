@@ -1,14 +1,241 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Shop">
-
-    <!-- TODO: Update blank fragment layout -->
+    android:orientation="vertical"
+    tools:context=".MainActivity">
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:text="상점"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-</FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="301dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="50dp"
+            android:gravity="right"
+            android:text="포인트: "
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="NNNNp"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+
+    </LinearLayout>
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="상품1"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:textsize= "40dp"/>
+            <Button
+                android:text="상품2"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:textsize= "40dp"/>
+            <Button
+                android:text="상품3"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:textsize= "40dp"/>
+            <Button
+                android:text="상품4"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:textsize= "40dp"/>
+            <Button
+                android:text="상품5"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:textsize= "40dp"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="상품"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:textsize= "40dp"/>
+            <Button
+                android:text="상품"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:textsize= "40dp"/>
+            <Button
+                android:text="상품"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:textsize= "40dp"/>
+            <Button
+                android:text="상품"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:textsize= "40dp"/>
+
+            <Button
+                android:layout_width="72dp"
+                android:layout_height="75dp"
+                android:text="상품"
+                android:textsize="40dp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="상품"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:textsize= "40dp"/>
+            <Button
+                android:text="상품"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:textsize= "40dp"/>
+            <Button
+                android:text="상품"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:textsize= "40dp"/>
+            <Button
+                android:text="상품"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:textsize= "40dp"/>
+            <Button
+                android:text="상품"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:textsize= "40dp"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="상품"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:textsize= "40dp"/>
+            <Button
+                android:text="상품"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:textsize= "40dp"/>
+            <Button
+                android:text="상품"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:textsize= "40dp"/>
+            <Button
+                android:text="상품"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:textsize= "40dp"/>
+            <Button
+                android:text="상품"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:textsize= "40dp"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="상품"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:textsize= "40dp"/>
+            <Button
+                android:text="상품"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:textsize= "40dp"/>
+            <Button
+                android:text="상품"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:textsize= "40dp"/>
+            <Button
+                android:text="상품"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:textsize= "40dp"/>
+            <Button
+                android:text="상품"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:textsize= "40dp"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="상품"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:textsize= "40dp"/>
+            <Button
+                android:text="상품"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:textsize= "40dp"/>
+            <Button
+                android:text="상품"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:textsize= "40dp"/>
+            <Button
+                android:text="상품"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:textsize= "40dp"/>
+            <Button
+                android:text="상품"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:textsize= "40dp"/>
+        </TableRow>
+
+
+
+    </TableLayout>
+</LinearLayout>

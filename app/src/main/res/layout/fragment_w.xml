@@ -1,14 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".W">
-
-    <!-- TODO: Update blank fragment layout -->
+    android:orientation="vertical"
+    tools:context=".MainActivity">
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:text="W"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-</FrameLayout>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        tools:srcCompat="@tools:sample/avatars" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="컬렉션"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="N/NN"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </LinearLayout>
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="컬렉션1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textsize= "40dp"/>
+            <Button
+                android:text="컬렉션2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textsize= "40dp"/>
+            <Button
+                android:text="컬렉션3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textsize= "40dp"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="컬렉션4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textsize= "40dp"/>
+            <Button
+                android:text="컬렉션5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textsize= "40dp"/>
+            <Button
+                android:text="컬렉션6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textsize= "40dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="컬렉션7"
+                android:textsize="40dp" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="컬렉션8"
+                android:textsize="40dp" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="컬렉션9"
+                android:textsize="40dp" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
